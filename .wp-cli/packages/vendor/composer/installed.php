@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'pretty_version' => '2.10.0',
+        'version' => '2.10.0.0',
+        'type' => 'library',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'reference' => null,
+        'name' => 'wp-cli/wp-cli',
+        'dev' => false,
+    ),
+    'versions' => array(
+        'aaemnnosttv/wp-cli-login-command' => array(
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../aaemnnosttv/wp-cli-login-command',
+            'aliases' => array(),
+            'reference' => '3036c3c73788bfab56b2d0ba1a1409571c807900',
+            'dev_requirement' => false,
+        ),
+        'composer/semver' => array(
+            'pretty_version' => '3.4.0',
+            'version' => '3.4.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/./semver',
+            'aliases' => array(),
+            'reference' => '35e8d0af4486141bc745f23a29cc2091eb624a32',
+            'dev_requirement' => false,
+        ),
+        'wp-cli/wp-cli' => array(
+            'pretty_version' => '2.10.0',
+            'version' => '2.10.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'reference' => null,
+            'dev_requirement' => false,
+        ),
+    ),
+);

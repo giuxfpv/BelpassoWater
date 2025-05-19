@@ -1,0 +1,32 @@
+Successfully finished scan!
+CMSScanner found 1 CMS installations!
+
++-----------+-----------------+-----------+
+| CMS       | # Installations | # Modules |
++-----------+-----------------+-----------+
+| WordPress | 1               | 5         |
++-----------+-----------------+-----------+
+
+Version specific stats:
+WordPress:
++---------+-----------------+
+| Version | # Installations |
++---------+-----------------+
+| 6.5.2   | 1               |
++---------+-----------------+
+
+Module specific stats:
+WordPress:
++-------------------+-----------------+
+| Module            | # Installations |
++-------------------+-----------------+
+| Akismet Anti-spam | 1               |
+| Site Assistant    | 1               |
+| Hello Dolly       | 1               |
+| Extendify         | 1               |
+| iubenda           | 1               |
++-------------------+-----------------+
+Report was written to /data/sites/web/fontanebelpassoit/.webhosting/cmsscanner/cmsscanner_20250421_084123.json
+
+Execution time: 1.3502070903778 seconds
+Memory consumption: 4M

@@ -1,0 +1,7 @@
+[fontanebelpassoit]
+shortcode = fontas
+phpversion = 8.2
+phpextensions = imagick
+nodeversion = 18
+mailfrom = fontanebelpassoit@tb-hosting.com
+

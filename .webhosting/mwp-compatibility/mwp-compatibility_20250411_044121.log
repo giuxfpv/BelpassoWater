@@ -1,0 +1,20 @@
+2025-04-11T04:42:54+00:00: Starting wp-config.php checks
+2025-04-11T04:42:55+00:00: Found 1 wp-config.php files
+2025-04-11T04:42:55+00:00: Testing WordPress inside /data/sites/web/fontanebelpassoit/www
+2025-04-11T04:42:55+00:00: Fetching username
+2025-04-11T04:42:55+00:00: Fetching version
+2025-04-11T04:42:55+00:00: Fetching shortcode
+2025-04-11T04:42:55+00:00: Fetching database user
+2025-04-11T04:42:55+00:00: timeout 2m wp config get DB_USER --path=/data/sites/web/fontanebelpassoit/www --skip-plugins --skip-themes --quiet --allow-root 
+2025-04-11T04:42:56+00:00: Checking db connection
+2025-04-11T04:42:56+00:00: timeout 2m wp db tables --path=/data/sites/web/fontanebelpassoit/www --skip-plugins --skip-themes --quiet --allow-root 
+2025-04-11T04:42:57+00:00: Fetching language
+2025-04-11T04:42:57+00:00: timeout 2m wp language core list --status=active --field=language --path=/data/sites/web/fontanebelpassoit/www --skip-plugins --skip-themes --quiet --allow-root 
+2025-04-11T04:42:59+00:00: Fetching admin user
+2025-04-11T04:42:59+00:00: timeout 2m wp user list --format=json --path=/data/sites/web/fontanebelpassoit/www --skip-plugins --skip-themes --quiet --allow-root | jq '[.|=sort_by(.ID)|.[]|select(.roles|test("administrator";"i"))][0].user_login' --raw-output
+2025-04-11T04:42:59+00:00: Fetching admin email
+2025-04-11T04:42:59+00:00: timeout 2m wp option get admin_email --path=/data/sites/web/fontanebelpassoit/www --skip-plugins --skip-themes --quiet --allow-root 
+2025-04-11T04:43:00+00:00: Fetching site title
+2025-04-11T04:43:00+00:00: timeout 2m wp option get blogname --path=/data/sites/web/fontanebelpassoit/www --skip-plugins --skip-themes --quiet --allow-root 
+2025-04-11T04:43:01+00:00: Found 1 wordpresses that can be sidegraded
+2025-04-11T04:43:01+00:00: Wrote to report file: /data/sites/web/fontanebelpassoit/.webhosting/mwp-compatibility/mwp-compatibility_20250411_044121.json

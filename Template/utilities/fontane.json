@@ -1,0 +1,221 @@
+ 
+[
+  {
+        "name": "Fontana 1",
+        "lat": 37.60353251285393,
+        "lng": 14.982708635340499,
+        "url": "/fontana1/fontana1.html"
+    },
+    {
+        "name": "Fontana 2",
+        "lat": 37.60189233184562,
+        "lng": 14.985396058525732,
+        "url": "./../fontana2/fontana2.html"
+    },
+    {
+        "name": "Fontana 3",
+        "lat": 37.601944, 
+        "lng": 14.984722  ,
+        "url": "./../fontana3/fontana3.html"
+    },
+    {
+        "name": "Fontana 4",
+        "lat": 37.600556,
+        "lng": 14.986944,
+        "url": "./../fontana4/fontana4.html"
+    },
+    {
+        "name": "Fontana 5",
+        "lat": 37.59883862618503, 
+        "lng": 14.982790463042118,
+        "url": "./../fontana5/fontana5.html"
+    },
+    {
+        "name": "Fontana 6",
+        "lat": 37.598889,
+        "lng": 14.982778,
+        "url": "./../fontana6/fontana6.html"
+    },
+    {
+        "name": "Fontana 7",
+        "lat": 37.599444,
+        "lng": 14.986111,
+        "url": "./../fontana7/fontana7.html"
+    },
+    {
+        "name": "Fontana 8",
+        "lat": 37.597778,
+        "lng": 14.982222,
+        "url": "./../fontana8/fontana8.html"
+    },
+    {
+        "name": "Fontana 9",
+        "lat":  37.5980101813151,  
+        "lng": 14.98111589236431,
+        "url": "./../fontana9/fontana9.html"
+    },
+    {
+        "name": "Fontana 10",
+        "lat": 37.597778,
+        "lng": 14.983333,
+        "url": "./../fontana10/fontana10.html"
+    },
+    {
+        "name": "Fontana 11",
+        "lat": 37.597778,
+        "lng": 14.985000,
+        "url": "./../fontana11/fontana11.html"
+    },
+    {
+        "name": "Fontana 12",
+        "lat": 37.596667,
+        "lng": 14.984722,
+        "url": "./../fontana12/fontana12.html"
+    },
+    {
+        "name": "Fontana 13",
+        "lat": 37.595000,
+        "lng": 14.982500,
+        "url": "./../fontana13/fontana13.html"
+    },
+    {
+        "name": "Fontana 14",
+        "lat": 37.591389,
+        "lng": 14.978889,
+        "url": "./../fontana14/fontana14.html"
+    },
+    {
+        "name": "Fontana 15",
+        "lat": 37.593333,
+        "lng": 14.980833,
+        "url": "./../fontana15/fontana15.html"
+    },
+    {
+        "name": "Fontana 16",
+        "lat":  37.590556,
+        "lng": 14.978056,
+        "url": "./../fontana16/fontana16.html"
+    },
+    {
+        "name": "Fontana 17",
+        "lat": 37.590833,
+        "lng": 14.976944,
+        "url": "./../fontana17/fontana17.html"
+    },
+    {
+        "name": "Fontana 18",
+        "lat": 37.590556,  
+        "lng": 14.976389,
+        "url": "./../fontana18/fontan18.html"
+    },
+    {
+        "name": "Fontana 19",
+        "lat": 37.589722,
+        "lng": 14.974722,
+        "url": "./../fontana19/fontana19.html"
+    },
+    {
+        "name": "Fontana 20",
+        "lat": 37.588611,
+        "lng": 14.976389,
+        "url": "./../fontana20/fontan20.html"
+    },
+    {
+        "name": "Fontana 21",
+        "lat": 37.586944,
+        "lng": 14.975833,
+        "url": "./../fontana21/fontana21.html"
+    },
+    {
+        "name": "Fontana 22",
+        "lat": 37.587778,
+        "lng": 14.978333,
+        "url": "./../fontana22/fontana22.html"
+    },
+    {
+        "name": "Fontana 23",
+        "lat": 37.586111,
+        "lng": 14.978056,
+        "url": "./../fontana23/fontana23.html"
+    },
+    {
+        "name": "Fontana 24",
+        "lat": 37.584444,
+        "lng": 14.980000,
+        "url": "./../fontana24/fontana24.html"
+    },
+    {
+        "name": "Fontana 25",
+        "lat": 37.583889,
+        "lng": 14.978611,
+        "url": "./../fontana25/fontana25.html"
+    },
+    {
+        "name": "Fontana 26",
+        "lat": 37.583333,
+        "lng": 14.976111,
+        "url": "./../fontana26/fontana26.html"
+    },
+    {
+        "name": "Fontana 27",
+        "lat": 37.582778,
+        "lng": 14.978333,
+        "url": "./../fontana27/fontana27.html"
+    },
+    {
+        "name": "Fontana 28",
+        "lat": 37.582222,
+        "lng": 14.979444,
+        "url": "./../fontana28/fontana28.html"
+    },
+    {
+        "name": "Fontana 29",
+        "lat": 37.581389,
+        "lng": 14.978889,
+        "url": "./../fontana29/fontana29.html"
+    } 
+    ,
+    {
+        "name": "Fontana 30",
+        "lat":  37.580833,
+        "lng":  14.980556,
+        "url": "./../fontana30/fontana30.html"
+    }   
+    ,
+    {
+        "name": "Fontana 31",
+        "lat":  37.580278,
+        "lng":  14.978333,
+        "url": "./../fontana31/fontana31.html"
+    }
+    ,
+    {
+        "name": "Fontana 32",
+        "lat":  37.580278,
+        "lng":  14.976944,
+        "url": "./../fontana32/fontana32.html"
+    }
+    ,
+    {
+        "name": "Fontana 33 ",
+        "lat":  37.581111,
+        "lng":  14.977500,
+        "url": "./../fontana33/fontana33.html"
+    }
+    ,
+    {
+        "name": "Fontana 34 ",
+        "lat":  37.585000,
+        "lng":  14.976667,
+        "url": "./../fontana34/fontana34.html"
+    }   
+    ,
+    {
+        "name": "Fontana 35",
+        "lat":  37.580278,
+        "lng":  14.976944,
+        "url": "./../fontana35/fontana35.html"
+    }
+
+]
+      

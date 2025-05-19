@@ -1,0 +1,35 @@
+2025-04-15T12:29:01+00:00: /usr/local/maldetect/maldet -a /data/sites/web/fontanebelpassoit
+Linux Malware Detect v1.6.5
+            (C) 2002-2023, R-fx Networks <proj@rfxn.com>
+            (C) 2023, Ryan MacDonald <ryan@rfxn.com>
+This program may be freely redistributed under the terms of the GNU GPL v2
+
+maldet(8): {scan} signatures loaded: 17638 (14801 MD5 | 2054 HEX | 783 YARA | 0 USER)
+maldet(8): {scan} building file list for /data/sites/web/fontanebelpassoit, this might take awhile...
+maldet(8): {scan} setting nice scheduler priorities for all operations: cpunice 19 , ionice 6
+maldet(8): {scan} file list completed in 1s, found 4353 files...
+maldet(8): {scan} found clamav binary at /usr/bin/clamscan, using clamav scanner engine...
+maldet(8): {scan} scan of /data/sites/web/fontanebelpassoit (4353 files) in progress...
+
+maldet(8): {scan} scan completed on /data/sites/web/fontanebelpassoit: files 4353, malware hits 0, cleaned hits 0, time 202s
+maldet(8): {scan} scan report saved, to view run: maldet --report 250415-1229.8
+2025-04-15T12:32:23+00:00: Apr 15 2025 12:29:01 tb-be04-hclwrk002 maldet(8): {scan} signatures loaded: 17638 (14801 MD5 | 2054 HEX | 783 YARA | 0 USER)
+2025-04-15T12:32:23+00:00: Apr 15 2025 12:29:01 tb-be04-hclwrk002 maldet(8): {scan} building file list for /data/sites/web/fontanebelpassoit, this might take awhile...
+2025-04-15T12:32:23+00:00: Apr 15 2025 12:29:01 tb-be04-hclwrk002 maldet(8): {scan} setting nice scheduler priorities for all operations: cpunice 19 , ionice 6
+2025-04-15T12:32:23+00:00: Apr 15 2025 12:29:01 tb-be04-hclwrk002 maldet(8): {scan} executed eval /usr/bin/nice -n 19 /usr/bin/ionice -c2 -n 6 /usr/bin/find "/data/sites/web/fontanebelpassoit" /tmp /var/tmp /dev/shm /var/fcgi_ipc -maxdepth 15 -regextype posix-egrep -type f  -size +24c -size -6947618c  -not -perm 000   -not -uid 0 -not -gid 0  
+2025-04-15T12:32:23+00:00: Apr 15 2025 12:29:02 tb-be04-hclwrk002 maldet(8): {scan} file list completed in 1s, found 4353 files...
+2025-04-15T12:32:23+00:00: Apr 15 2025 12:29:02 tb-be04-hclwrk002 maldet(8): {scan} found clamav binary at /usr/bin/clamscan, using clamav scanner engine...
+2025-04-15T12:32:23+00:00: Apr 15 2025 12:29:02 tb-be04-hclwrk002 maldet(8): {scan} scan of /data/sites/web/fontanebelpassoit (4353 files) in progress...
+2025-04-15T12:32:23+00:00: Apr 15 2025 12:32:23 tb-be04-hclwrk002 maldet(8): {scan} scan completed on /data/sites/web/fontanebelpassoit: files 4353, malware hits 0, cleaned hits 0, time 202s
+2025-04-15T12:32:23+00:00: Apr 15 2025 12:32:23 tb-be04-hclwrk002 maldet(8): {scan} scan report saved, to view run: maldet --report 250415-1229.8
+2025-04-15T12:32:23+00:00: /usr/bin/yara *.yara --skip-larger=536870912 --recursive --no-follow-symlinks /data/sites/web/fontanebelpassoit
+warning: rule "php_webshell_marijuana" in combell.yara(229): string "$shell_me" may slow down scanning
+warning: rule "php_webshell_marijuana" in combell.yara(232): string "$github_domain" may slow down scanning
+warning: rule "php_webshell_marijuana" in combell.yara(240): string "$dios_message_part1" may slow down scanning
+warning: rule "php_webshell_marijuana" in combell.yara(241): string "$dios_message_part2" may slow down scanning
+warning: rule "php_webshell_marijuana" in combell.yara(242): string "$dios_message_part3" may slow down scanning
+warning: rule "Malware_Expert_Encoded_string_pattern" in malware.expert.yara(33): string "$str_regex_1" may slow down scanning
+warning: rule "Malware_Expert_Encoded_string_pattern" in malware.expert.yara(34): string "$str_regex_2" may slow down scanning
+warning: rule "Malware_Expert_Encoded_string_pattern" in malware.expert.yara(36): string "$str_regex_4" may slow down scanning
+2025-04-15T12:32:30+00:00: Calculating mtime and sha256 for each file
+2025-04-15T12:32:30+00:00: Wrote to report file: /data/sites/web/fontanebelpassoit/.webhosting/maldetect/maldetect_20250415_122858.json

@@ -1,0 +1,32 @@
+{
+    "name": "wp-cli/wp-cli",
+    "description": "Installed community packages used by WP-CLI",
+    "version": "2.10.0",
+    "authors": [
+        {
+            "name": "WP-CLI",
+            "email": "noreply@wpcli.org"
+        }
+    ],
+    "homepage": "https://wp-cli.org/package-index/",
+    "require": {
+        "aaemnnosttv/wp-cli-login-command": "dev-main || dev-master || dev-trunk"
+    },
+    "require-dev": {},
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "license": "MIT",
+    "repositories": {
+        "wp-cli": {
+            "type": "composer",
+            "url": "https://wp-cli.org/package-index/"
+        },
+        "aaemnnosttv/wp-cli-login-command": {
+            "type": "path",
+            "url": "/data/sites/web/fontanebelpassoit/.wp-cli/packages/local/aaemnnosttv-wp-cli-login-command"
+        }
+    },
+    "config": {
+        "secure-http": true
+    }
+}
